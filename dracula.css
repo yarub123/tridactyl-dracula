@@ -45,14 +45,14 @@
 }
 
 #tridactyl-input {
-  padding: 1rem;
+  padding: 0.8rem;/*padding: 1rem;*/
   color: var(--tridactyl-fg);
   width: 90%;
-  font-size: 1.5rem;
+  font-size: 0.9rem;/*font-size: 1.5rem;*/
   line-height: 1.5;
   background: var(--tridactyl-bg);
   padding-left: unset;
-  padding: 1rem;
+  padding: 0.8rem;/*padding: 1rem;*/
 }
 
 #completions table {
@@ -93,7 +93,7 @@
 
 #completions .HistoryCompletionSource table {
   width: 100%;
-  font-size: 9pt;
+  font-size: 0.8rem;/*font-size: 9pt;*/
   border-spacing: 0;
   table-layout: fixed;
 }
@@ -113,7 +113,7 @@
 
 #completions .BufferCompletionSource table {
   width: unset;
-  font-size: unset;
+  font-size: 0.8rem;/*font-size: unset;*/
   border-spacing: unset;
   table-layout: unset;
 }
