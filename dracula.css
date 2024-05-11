@@ -167,3 +167,8 @@
   background: var(--pink);
   color: var(--bg);
 }
+
+/* via cozeski for fixing up hint sizes. for hint font => line27 */
+.TridactylHint{
+  font-size: 20px !important; /*adjust size as needed*/
+}
