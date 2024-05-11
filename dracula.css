@@ -169,6 +169,6 @@
 }
 
 /* via cozeski for fixing up hint sizes. for hint font => line27 */
-.TridactylHint{
-  font-size: 20px !important; /*adjust size as needed*/
+.TridactylHintElem, .TridactylHintHost {
+  font-size: 20px !important; /* Adjust the size as needed */
 }
