@@ -24,7 +24,7 @@
   --tridactyl-cmdl-fg: var(--bg);
   --tridactyl-cmdl-font-family: var(--font);
   --tridactyl-cmplt-font-family: var(--font);
-  --tridactyl-hintspan-font-family: var(--font);
+  --tridactyl-hintspan-font-family: "Monoid Retina";/*--tridactyl-hintspan-font-family: var(--font);*/
 
   /* Hint character tags */
   --tridactyl-hintspan-fg: var(--bg) !important;
@@ -168,7 +168,3 @@
   color: var(--bg);
 }
 
-/* via cozeski for fixing up hint sizes. for hint font => line27 */
-.TridactylHintElem, .TridactylHintHost {
-  font-size: 20px !important; /* Adjust the size as needed */
-}
